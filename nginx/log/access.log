@@ -1,0 +1,4 @@
+172.18.0.1 - - [29/Jun/2024:19:42:47 +0900] "GET / HTTP/2.0" 200 4014 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"
+172.18.0.1 - - [29/Jun/2024:19:42:48 +0900] "GET /favicon.ico HTTP/2.0" 404 9 "https://bnn.local.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"
+172.18.0.1 - - [29/Jun/2024:19:42:48 +0900] "GET / HTTP/2.0" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"
+172.18.0.1 - - [29/Jun/2024:20:08:56 +0900] "GET / HTTP/2.0" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" "-"

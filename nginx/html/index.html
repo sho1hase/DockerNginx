@@ -6,37 +6,27 @@
     <title>テストページ</title>
   </head>
   <body>
-    <header>ヘッダー</header>
-    <!-- 【例1】サイドメニューのコンテンツ -->
-    <aside>
-      <nav>
-        <p>カテゴリー一覧</p>
-        <ul>
-          <li>
-            <a href="/news/">新着情報</a>
-          </li>
-          <li>
-            <a href="/other/">その他</a>
-          </li>
-          <li>
-            <a href="/news/">新着情報</a>
-          </li>
-          <li>
-            <a href="/shop/">店舗一覧</a>
-          </li>
-          <li>
-            <a href="/about/">店舗紹介</a>
-          </li>
-          <li>
-            <a href="/access/">アクセス情報</a>
-          </li>
-        </ul>
-      </nav>
-      <p>このサイトの紹介文が入ります</p>
-    </aside>
+    <header>
+      <h1>Header</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our team</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <!-- A Search form is another common non-linear way to navigate through a website. -->
+
+      <form>
+        <input type="search" name="q" placeholder="Search query" />
+        <input type="submit" value="Go!" />
+      </form>
+    </nav>
     <!-- 【例2】補足的なコンテンツ -->
     <main>
-      <h1>きつねうどんの作り方</h1>
+      <h1>メインきつねうどんの作り方</h1>
       <section>
         <h2>材料</h2>
         <ul>
@@ -99,11 +89,20 @@
           </div>
         </article>
       </section>
+      <aside>
+        <h2>Related</h2>
+
+        <ul>
+          <li><a href="#">Oh I do like to be beside the seaside</a></li>
+          <li><a href="#">Oh I do like to be beside the sea</a></li>
+          <li><a href="#">Although in the North of England</a></li>
+          <li><a href="#">It never stops raining</a></li>
+          <li><a href="#">Oh well…</a></li>
+        </ul>
+      </aside>
     </main>
-    <aside>
-      <h3>うどん豆知識</h3>
-      <p>うどんのルーツは奈良時代に中国から伝来した「こんとん」を起源としているらしいです！</p>
-    </aside>
-    <footer>フッター</footer>
+    <footer>
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
   </body>
 </html>
